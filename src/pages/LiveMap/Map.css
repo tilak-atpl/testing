@@ -1,0 +1,33 @@
+.google-map {
+  margin: 15px;
+  width : calc(100% - 30px);
+  height: calc(100% - 30px);
+}
+
+.pin {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  color: var(--main-blue);
+}
+
+.pin-icon {
+  font-size: 3rem;
+  color: #f0d030;
+}
+
+.pin-text {
+  font-size: 1.3em;
+}
+
+#search-input {
+  width: 350px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+}
+#search-input:focus {
+  outline: none;
+}

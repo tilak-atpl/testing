@@ -1,0 +1,22 @@
+
+.vehicle-item {
+    width: 47%;
+}
+
+.vehicle-item .ant-avatar-string {
+    top: -5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .vehicle-item {
+        width: 80%;
+    }
+
+    .user-info {
+        height: 35%;
+        flex-direction: column;
+    }
+    .user-info>div {
+        width: 80%;
+    }
+}

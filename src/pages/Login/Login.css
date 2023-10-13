@@ -1,0 +1,73 @@
+.login-menu {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #ED7D31;
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, .7));
+}
+
+.login-title {
+    font-size: 3rem;
+}
+
+.login-username, .login-password, .forgot-username {
+    height: 50px;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-left: 4px solid rgb(118, 178, 255);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.login-btn
+ , .signup-btn
+ , .signup-btn-back
+ , .forgot-btn
+ , .forgot-btn-back {
+    color: white;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.login-btn:hover
+ , .signup-btn:hover
+ , .signup-btn-back:hover
+ , .forgot-btn:hover
+ , .forgot-btn-back:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.login-signup, .login-forgot {
+    color: white;
+    cursor: pointer;
+}
+.login-signup:hover, .login-forgot:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.signup-email, .signup-password, .signup-confirm, .signup-firstname, .signup-lastname, .signup-mobile, .otp-code {
+    height: 40px;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-left: 4px solid rgb(118, 178, 255);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.otp-code {
+    /* border-left: none; */
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1549.9px) {
+    .main-layout {
+        height: auto;
+    }
+    .login-carousel {
+        margin: 50px;
+    }
+    .login-menu {
+        margin: 50px;
+        width: 550px;
+        height: 550px;
+    }
+}

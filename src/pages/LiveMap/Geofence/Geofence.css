@@ -1,0 +1,31 @@
+.custom-switch .ant-switch-handle {
+    width: 28px;
+    height: 28px;
+}
+.custom-switch .ant-switch-handle::before {
+    border-radius: 50%;
+}
+.custom-switch:where(.css-dev-only-do-not-override-1jr9qlj).ant-switch.ant-switch-checked .ant-switch-handle {
+    inset-inline-start: calc(100% - 28px);
+}
+.custom-switch:where(.css-dev-only-do-not-override-1jr9qlj).ant-switch .ant-switch-handle {
+    top: 1px;
+}
+.custom-switch:where(.css-dev-only-do-not-override-1jr9qlj).ant-switch .ant-switch-handle {
+    inset-inline-start: 0;
+}
+
+.custom-switch .ant-switch-inner {
+    background-color: rgba(0, 0, 0, .2);
+    padding-top: 3px;
+}
+.custom-switch .ant-switch-inner .ant-switch-inner-checked, .custom-switch .ant-switch-inner .ant-switch-inner-unchecked {
+    font-size: 19px;
+}
+.custom-switch.ant-switch-checked .ant-switch-inner {
+    background-color: #1677ff;
+}
+
+.ant-layout-content>div {
+    height: 100%;
+}

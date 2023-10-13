@@ -1,0 +1,16 @@
+1. List of vehicals getting from:
+`${API_TES_URL}/commands/diagnostics`, { imei: '862493050335194', commands }
+
+
+2. OEM List:
+http://139.59.62.79/api/v1/oem/oem/
+
+
+
+
+3. Getting sub model:
+http://139.59.62.79/api/v1/ior-test/actuator-test-list/?sub_model=7
+
+
+4. Diagnostics: 
+http://127.0.0.1:3031/api/commands/diagnostics
